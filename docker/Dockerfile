@@ -1,3 +1,3 @@
-FROM amazoncorretto:17.0.13-alpine3
+FROM openjdk:17-alpine
 ADD *.jar app.jar
 ENTRYPOINT java -jar app.jar
